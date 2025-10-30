@@ -1,0 +1,10 @@
+Date,Equipment,Temperature,Pressure,Vibration,Status
+2024-01-15,Pump-A,45.2,250.5,2.1,Normal
+2024-01-15,Pump-B,52.8,255.0,4.5,Warning
+2024-01-15,Turbine-A,72.3,450.8,3.2,Normal
+2024-01-16,Pump-A,46.1,252.3,2.3,Normal
+2024-01-16,Pump-B,58.5,262.1,5.8,Critical
+2024-01-16,Turbine-A,73.1,452.5,3.4,Normal
+2024-01-17,Pump-A,45.8,251.0,2.2,Normal
+2024-01-17,Pump-B,,260.5,5.2,Warning
+2024-01-17,Turbine-A,74.8,455.2,3.8,Normal
