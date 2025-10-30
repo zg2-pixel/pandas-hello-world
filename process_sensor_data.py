@@ -3,7 +3,7 @@ import pandas as pd
 # =====================================
 # 1. LOAD DATA
 # =====================================
-df = pd.read_csv('sensor_data.csv')
+df = pd.read_excel('sensor_data.xlsx')
 print("Data Loaded!\n")
 
 
@@ -61,5 +61,5 @@ print(df[df['Needs_Check']][['Equipment', 'Temperature', 'Status']])
 # =====================================
 # 6. EXPORT RESULTS
 # =====================================
-df.to_csv('sensor_data_analyzed.csv', index=False)
-print("\nResults saved to sensor_data_analyzed.csv")
+df.to_excel('sensor_data_analyzed.xlsx', index=False)
+print("\nResults saved to sensor_data_analyzed.xlsx")
